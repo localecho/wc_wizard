@@ -46,7 +46,7 @@ wheelchair_parts_lookup_table = [
 
 
 # Load environment variables
-load_dotenv()
+# load_dotenv()
 OPENAI_KEY = os.environ["OPENAI_KEY"]
 GMAPS_KEY = os.environ["GMAPS_KEY"]
 YOUTUBE_API_KEY = os.environ["YOUTUBE_API_KEY"]
