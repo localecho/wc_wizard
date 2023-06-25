@@ -7,3 +7,10 @@ google-auth-oauthlib
 youtube-search-python
 matplotlib
 geopy
+streamlit==0.85.1
+pandas==1.2.4
+google-api-python-client==2.7.0
+python-dotenv==0.18.0
+emoji==1.2.0
+PyPDF2==1.26.0
+langchain==0.0.3
