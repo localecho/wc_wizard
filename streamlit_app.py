@@ -204,7 +204,7 @@ def get_youtube_video(part_name, user_prompt=None, api_key=YOUTUBE_API_KEY):
 
 # First, we import the "speech_recognition" library as "sr".
 # This library helps us convert spoken language into written text.
-import speech_recognition as sr
+#import speech_recognition as sr
 
 def get_recognizer():
     """
