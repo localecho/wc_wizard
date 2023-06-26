@@ -11,3 +11,4 @@ geopy
 python-dotenv
 emoji
 langchain
+speech_recognition
