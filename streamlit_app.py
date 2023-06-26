@@ -649,15 +649,15 @@ def main():
         df['difficulty'] = df['difficulty'].apply(lambda x: '🔧'*x)
 
         # Display the DataFrame as a table in markdown with HTML
-        st.markdown("♿🧙‍♂️ The wizard is now invoking the Pinecone spell 🌲 (performing an embedding lookup) to find some solutions:")
+        st.markdown("♿🧙‍♂️ The wizard is now invoking the Pinecone spell 🌲 aka super-math to find community solutions:")
         st.markdown(df.to_html(escape=False, index=False), unsafe_allow_html=True)
 
         # Step 3: Display maps with real bike store locations based on user input
-        st.markdown("♿🧙‍♂️ Now let me conjure up a map spell... 🌍✨")
+        st.markdown("♿🧙‍♂️ Now let me conjure up a map spell showing local bike stores... 🌍✨")
         plot_with_streamlit()  # Display map
 
         # Step 4: Given the user input, search for a related YouTube video
-        st.markdown("♿🧙‍♂️ Now, let me summon a video spell from my crystal ball... 📺✨")
+        st.markdown("♿🧙‍♂️ Now, let me look into my youtube wheelchair-repair crystal ball... 📺✨")
         video_id = get_youtube_video(user_input)
         embed_youtube_video(video_id)
 
