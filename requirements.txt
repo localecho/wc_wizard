@@ -1,4 +1,5 @@
 streamlit
+speech_recognition
 click
 pandas
 PyPDF2
@@ -11,4 +12,4 @@ geopy
 python-dotenv
 emoji
 langchain
-speech_recognition
+
