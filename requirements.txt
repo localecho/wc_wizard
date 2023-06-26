@@ -1,5 +1,4 @@
 streamlit
-speech_recognition
 click
 pandas
 PyPDF2
