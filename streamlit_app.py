@@ -46,11 +46,13 @@ wheelchair_parts_lookup_table = [
 
 
 # Load environment variables
-# load_dotenv()
-OPENAI_KEY = os.environ["OPENAI_KEY"]
-GMAPS_KEY = os.environ["GMAPS_KEY"]
-YOUTUBE_API_KEY = os.environ["YOUTUBE_API_KEY"]
-user_lat, user_lon = 42.3656, -71.1043  # to fix in V2
+#load_dotenv()  # You can comment out this line because it is not necessary on Streamlit Cloud.
+OPENAI_KEY = st.secrets["OPENAI_KEY"]
+GMAPS_KEY = st.secrets["GMAPS_KEY"]
+YOUTUBE_API_KEY = st.secrets["YOUTUBE_API_KEY"]
+user_lat, user_lon = 42.3656, -71.1043  # location feature buggy; will fix in V2
+
+
 
 
 # Necessary imports
